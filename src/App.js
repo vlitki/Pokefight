@@ -156,6 +156,10 @@ function handleTurnClick(){
 
      { turn === 0 ? <ArrowL/> : <ArrowR /> }
      <button onClick={handleTurnClick} >ATTACK</button>
+     <div>
+      <p>{message}</p>
+      <p>{die}</p>
+     </div>
 
      <div>
       <h2>{pokemon2.name}</h2>
@@ -171,11 +175,6 @@ function handleTurnClick(){
       <p>Attack:{pokemon2.attack} </p>
       <p>Defense:{pokemon2.defense} </p>
       <p>Speed:{pokemon2.speed} </p>
-     </div>
-
-     <div>
-      <p>{message}</p>
-      <p>{die}</p>
      </div>
 
      </>  
