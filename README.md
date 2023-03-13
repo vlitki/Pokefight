@@ -7,8 +7,8 @@
 
 ## To do
 - add a healthbar
-- add the button to start the battle again with different Pokemons
+- add a button to start the battle again with different Pokemons
 - style the app
 - add some animations
-- organize code 
+- organize the code 
 - make the app responsive
