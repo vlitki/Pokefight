@@ -3,6 +3,7 @@ import {useState, useEffect} from "react";
 import Axios from "axios";
 import ArrowL from "./components/ArrowL";
 import ArrowR from "./components/ArrowR";
+import HealthBar from "./components/HealthBar";
 
 
 
@@ -138,7 +139,7 @@ function handleTurnClick(){
   return (
     <>
     <div>
-      
+      <HealthBar value={pokemon1Health} maxHP={pokemon1.hp}  />
       <h2>{pokemon1.name}</h2>
       <img 
         src={`https://img.pokemondb.net/artwork/large/${pokemon1.name}.jpg`}
@@ -162,6 +163,7 @@ function handleTurnClick(){
      </div>
 
      <div>
+     <HealthBar value={pokemon2Health} maxHP={pokemon2.hp}  />
       <h2>{pokemon2.name}</h2>
       <img 
         src={`https://img.pokemondb.net/artwork/large/${pokemon2.name}.jpg`}

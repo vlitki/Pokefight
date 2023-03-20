@@ -1,0 +1,29 @@
+.bar-container {
+  width: 350px;
+}
+
+.max-green {
+  height: 22px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+  
+  background-color: #62FF84;
+}
+
+.max-gray {
+  height: 22px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+  
+  background-color: #a8aea9;
+}
+
+
+.value {
+  height: 100%;
+  background-color:#62FF84;
+  width: 100%;
+  transition: 0.35s;
+}
